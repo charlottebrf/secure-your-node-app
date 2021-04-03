@@ -1,8 +1,8 @@
 <template>
   <div class="item">
     <h1>{{ title }}</h1>
-      <p> {{ description }} </p>
-      <a> {{ url }} </a>
+    <p>{{ description }}</p>
+    <a> {{ url }} </a>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   data() {
     return {};
   },
-  props: ['title', 'description', 'url'],
+  props: ["title", "description", "url"]
 };
 </script>
 
