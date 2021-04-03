@@ -20,14 +20,14 @@ export default {
           description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
         },
         {
-          name: 'blurghh',
-          img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/paris1.svg',
-          desc: `Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+          title: 'blurghh',
+          url: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/paris1.svg',
+          description: `Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
         },
          {
-          name: 'blahhh',
-          img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/rome.svg',
-          desc: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+          title: 'blahhh',
+          url: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/rome.svg',
+          description: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
         },
       ],
     }
