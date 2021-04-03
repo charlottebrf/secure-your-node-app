@@ -1,5 +1,5 @@
 <template>
-  <div class="item">
+  <div class="smol-card-component ">
     <h1>{{ title }}</h1>
     <p>{{ description }}</p>
     <a> {{ url }} </a>
@@ -16,15 +16,30 @@ export default {
 </script>
 
 <style scoped>
-.item {
+.smol-flexbox-grid {
+  --min: 10ch;
+  --gap: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+.smol-flexbox-grid > * {
+  flex: 1 1 var(--min);
+}
+
+.smol-card-component {
+  --img-ratio: 3/2;
+
   display: flex;
   flex-direction: column;
-  width: 280px;
-  height: 320px;
-  justify-content: center;
-  background: white;
-  border: 1px solid #ddd;
-  padding: 20px 20px;
-  margin: 10px;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
+  border-radius: 0.5rem;
 }
+
+/* Soon we can replace this with: gap: 1rem; */
+.smol-card-component > * + * {
+  margin-top: 1rem;
+}
+
 </style>

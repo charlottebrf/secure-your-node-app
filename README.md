@@ -21,3 +21,7 @@ $ npm run generate
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
+
+# CSS thanks to
+* [smolcss](https://smolcss.dev/)
+* [water css](https://watercss.kognise.dev/)

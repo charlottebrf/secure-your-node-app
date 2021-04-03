@@ -1,8 +1,8 @@
 <template>
   <section>
-    <div>
+    <div class="">
       <nav-bar />
-      <h1 class="title">
+      <h1 class="title smol-centering">
         Secure your Node apps
       </h1>
     </div>
@@ -27,5 +27,10 @@ export default {
   font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
+}
+
+.smol-centering {
+  display: grid;
+  place-content: center;
 }
 </style>
