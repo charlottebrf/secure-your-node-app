@@ -5,24 +5,12 @@
       <h1 class="title">
         Secure your Node apps
       </h1>
-      <!-- <div class="links">
-      <a class="button--green">
-      <NuxtLink to="/javascript">Javascript</NuxtLink>
-      </a>
-       <a class="button--green">
-      <NuxtLink to="/secure-code-reviews">Secure Code Reviews</NuxtLink>
-       </a>
-      </div>
-    </div>
-    <a href="https://nuxtjs.org">More about the author</a> -->
     </div>
   </section>
 </template>
 
 <script>
-// a page imports a component to be rendered
   import NavBar from "~/components/NavBar.vue";
-// exports itself & whatever components it is using
 export default {
   components: {
      NavBar,

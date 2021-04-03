@@ -1,15 +1,15 @@
 <template>
-  <h1 class="purple">Helllo</h1>
+<div>
+    <navbar></navbar>
+    <items></items>
+</div>
 </template>
 
 <script>
-  export default {
-    // page properties go here
+import Items from '~/components/Items.vue'
+import Navbar from '~/components/Navbar.vue'
+
+export default {
+    components: { Items, Navbar }
   }
 </script>
-
-<style>
-  .purple {
-    color: rgb(153, 0, 255);
-  }
-</style>
