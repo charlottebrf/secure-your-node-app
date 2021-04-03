@@ -1,15 +1,15 @@
 <template>
   <div>
     <navbar></navbar>
-    <items></items>
+    <secure-code-items></secure-code-items>
   </div>
 </template>
 
 <script>
-import Items from "~/components/Items.vue";
+import SecureCodeItems from "~/components/SecureCodeItems.vue";
 import Navbar from "~/components/Navbar.vue";
 
 export default {
-  components: { Items, Navbar }
+  components: { SecureCodeItems, Navbar }
 };
 </script>
