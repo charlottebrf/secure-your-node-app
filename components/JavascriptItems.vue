@@ -19,19 +19,19 @@ export default {
     return {
       items: [
         {
-          title: "blah",
-          url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/moscow.svg",
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+          title: "JavaScript security 101",
+          url: "https://dev.to/charlottebrf_99/javascript-security-101-2lag",
+          description: `Run down of what was learnt on JavaScript Security: Best Practices course by Marcin Hoppe .`
         },
         {
-          title: "blurghh",
-          url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/paris1.svg",
-          description: `Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+          title: "Snyk JavaScript security",
+          url: "https://snyk.io/learn/javascript-security",
+          description: `Top 8 JS security vulnerabilities.`
         },
         {
-          title: "blahhh",
-          url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/rome.svg",
-          description: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+          title: "OWASP",
+          url: "https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html",
+          description: `OWASP third party JS management cheat sheet".`
         }
       ]
     };
