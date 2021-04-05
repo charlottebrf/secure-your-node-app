@@ -21,6 +21,7 @@ module.exports = {
   /*
   ** Build configuration
   */
+ modules: ['@nuxt/http'],
   build: {
     /*
     ** Run ESLint on save

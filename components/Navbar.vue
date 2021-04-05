@@ -12,6 +12,11 @@
         to="/secure-code-reviews"
         >Secure Code Reviews</nuxt-link
       >
+       <nuxt-link
+        class="nav-item router-link-exact-active"
+        to="/security-news"
+        >Security News</nuxt-link
+      >
     </nav>
   </div>
 </template>

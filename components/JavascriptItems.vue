@@ -21,7 +21,7 @@ export default {
         {
           title: "JavaScript security 101",
           url: "https://dev.to/charlottebrf_99/javascript-security-101-2lag",
-          description: `Run down of what was learnt on JavaScript Security: Best Practices course by Marcin Hoppe .`
+          description: `Run down of what was learnt on JavaScript Security: Best Practices course by Marcin Hoppe.`
         },
         {
           title: "Snyk JavaScript security",

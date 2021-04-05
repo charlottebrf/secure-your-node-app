@@ -2,6 +2,7 @@
   <div class="smol-card-component ">
     <h1>{{ title }}</h1>
     <p>{{ description }}</p>
+    <!-- <a href={{ url }}><button>url</button></a> -->
     <a> {{ url }} </a>
   </div>
 </template>
@@ -35,11 +36,17 @@ export default {
   flex-direction: column;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
   border-radius: 0.5rem;
+  padding: 1rem;
 }
 
 /* Soon we can replace this with: gap: 1rem; */
 .smol-card-component > * + * {
   margin-top: 1rem;
+}
+
+a {
+  color: #39b982;
+  border-bottom: solid 2px #39b982;
 }
 
 </style>
